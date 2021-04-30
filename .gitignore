@@ -21,8 +21,9 @@
 *.la
 *.a
 
+.vs/
 x64/
-
 Release/
-
 Debug/
+*.user
+
