@@ -1,0 +1,5 @@
+﻿  WSA_APP_!.cpp
+D:\Docs\Code\WSA_APP_!\WSA_APP_!\WSA_APP_!.cpp(338,9): warning C4101: 'bitesSent': unreferenced local variable
+  Generating code
+d:\docs\code\wsa_app_!\wsa_app_!\wsa_app_!.cpp : fatal error C1301: error accessing program database D:\Docs\Code\WSA_APP_!\Release\WSA_APP_!.ipdb, invalid format, please delete and rebuild
+LINK : fatal error LNK1257: code generation failed

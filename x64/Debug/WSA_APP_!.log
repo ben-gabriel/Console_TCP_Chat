@@ -1,0 +1,6 @@
+﻿  WSA_APP_!.cpp
+C:\Users\sergi\Desktop\Code\TCP Chat\WSA_APP_!\WSA_APP_!.cpp(243,108): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sergi\Desktop\Code\TCP Chat\WSA_APP_!\WSA_APP_!.cpp(302,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sergi\Desktop\Code\TCP Chat\WSA_APP_!\WSA_APP_!.cpp(326,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sergi\Desktop\Code\TCP Chat\WSA_APP_!\WSA_APP_!.cpp(338,9): warning C4101: 'bitesSent': unreferenced local variable
+  WSA_APP_!.vcxproj -> C:\Users\sergi\Desktop\Code\TCP Chat\x64\Debug\WSA_APP_!.exe
