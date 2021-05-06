@@ -14,20 +14,22 @@ void recv_message(SOCKET clientSocket);
 
 bool isNumber(const std::string& strToCheck);
 
-// \ -> (alt+92) self-remainder
+// \ -> (alt+92) - self reminder
 
 int main() {
     //-------------------------------------------------------------------------------------------------------------------------------------//
     //                                              TCP Client-Server app Based off:                                                       //
     //                            docs.microsoft.com/en-us/windows/win32/winsock/getting-started-with-winsock                              //
-    //                                                *With some minor adjustments*                                                         //
+    //                                                *With some minor adjustments*                                                        //
     //-------------------------------------------------------------------------------------------------------------------------------------//
 
-//_--------------------------------------------------------------------_
+    // Main menu
+
     std::string strOption;
     int reset = 0;
     do {
         printf("Do you want to run as a client(1) or as a server(2)\n");
+        printf("Please enter a numeric value \n");
         std::cin >> strOption;
         
         if(strOption == "1"){
@@ -38,7 +40,6 @@ int main() {
             reset = 1;
         }
     } while (reset == 1);
-//_--------------------------------------------------------------------_
 
 }
 
