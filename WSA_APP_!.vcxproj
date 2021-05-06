@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="WSA_APP_!.cpp" />
+    <ClCompile Include="client_side.cpp" />
+    <ClCompile Include="common_functions.cpp" />
+    <ClCompile Include="server_side.cpp" />
+    <ClCompile Include="winsock_chat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client_side.h" />
+    <ClInclude Include="common_functions.h" />
+    <ClInclude Include="server_side.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
