@@ -23,7 +23,7 @@ A while back I took on the challenge of building a TCP/IP Chat because I wanted 
 After some research I found the Windows Socket API (or Winsock), which handles the sockets management at the OS level.
 
 -----
-The main thing I learned with this project:
+The main things I learned with this project:
 -----
 * Ports
 * Berkeley sockets
