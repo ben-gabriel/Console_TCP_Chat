@@ -44,8 +44,9 @@ int run_server_version() {
 
     inet_ntop(AF_INET, &(addr_in->sin_addr), addrCh, INET_ADDRSTRLEN);
 
-    printf("Send this IP to the Client-Side: %s \n\n", addrCh);
-
+    //printf("Send this IP to the Client-Side: %s \n\n", addrCh);
+    //To-Do: Fix this piece od code so that it shows the public ip of the server side computer
+    
     //- Host Name -
 
     inspecResult = getaddrinfo(NULL, "27500", &hints, &result); // Sets the values for the server socket in &result
